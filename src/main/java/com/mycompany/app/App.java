@@ -55,6 +55,7 @@ public class App {
                 .post("/aluguel", AluguelHandler.realizarAluguel)
                 .post("/devolucao", AluguelHandler.realizarDevolucao)
 
-                .start(7070);
+                .start(8000);
     }
+
 }
